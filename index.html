@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/33d02b95e3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="makeGame()" id="body">
+    <header id="header">
+        <h1 id="logo">Tower Block</h1>
+        <button class="header_button" id="login">Login</button>
+        <button class="header_button" id="register">Register</button>
+        <button class="header_button" id="logout">Logout</button>
+    </header>
+
+    <section class="options">
+        <button onclick="removeStartButton(), startGame()" id="start">Play as a guest</button>
+        <!-- <button onclick="drop()" id="drop">Drop</button> -->
+    </section>
+
+    <p id="login-warning">Register or Login to add your records to the leader board (in work)</p>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

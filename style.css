@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+#logo{
+    margin-right: auto;
+}
+
+h1{
+    font-family: "Merriweather",  sans-serif;
+    font-size: 1.4rem;
+    color: rgb(0, 132, 255);
+    font-weight: bolder;
+    margin-left: 3rem;
+}
+
+#login, #logout, #register, #start{
+    font-family: "Merriweather",  sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #f2f4ff;
+    text-decoration: none;
+
+    margin-left: 35px;
+    padding: 9px 25px;
+    background-color: rgb(0, 153, 255);
+    border: 1px solid rgb(0, 63, 122);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#register, #logout{
+    margin-right: 1.2rem;
+}
+
+#login:hover, #logout:hover, #register:hover, #start:hover{
+    background-color: rgb(0, 63, 122);
+    border: 1px solid rgb(0, 63, 122);
+    border-radius: 18px;
+}
+
+.options{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+}
+
+#logout{
+    display: none;
+}
+
+#drop{
+    display: none;
+}
+
+#login-warning{
+    transition: all 2s ease 0s;
+    text-align: center;
+    position: fixed;
+    width: 600px;
+    color: white;
+    font-family: "Merriweather",  sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    z-index: 10;
+    text-shadow: -1px -1px 0 rgb(0, 63, 122), 1px -1px 0 rgb(0, 63, 122), -1px 1px 0 rgb(0, 63, 122), 1px 1px 0 rgb(0, 63, 122);
+}
+
+
+
+
+
+
+
+
+
